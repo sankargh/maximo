@@ -1,3 +1,4 @@
+```
 from psdi.iface.jms import JMSQueueBrowser
 from psdi.iface.jms import MaxQueueCache
 from psdi.iface.jms import QueueConfig
@@ -15,3 +16,4 @@ qCount=len(qList)
 
 #raise TypeError("Messages Count - "+str(qCount))
 print '-- Number of Messages in the Queue : ' +str(qCount)
+```
