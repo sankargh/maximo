@@ -5,7 +5,7 @@ from psdi.iface.jms import JMSData
 
 qbrowser = None
 queueName = "jms/maximo/int/queues/cqin"
-selector = ''
+selector = "SENDER='ABC'"
 config = MaxQueueCache.getInstance().getQueueConfig(queueName);
 connectionFactory = config.getConfactName();
 env = config.getEnv()
