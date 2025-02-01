@@ -5,7 +5,7 @@ from psdi.iface.jms import JMSData
 
 qbrowser = None
 
-#Declar, set the Maximo JMS queue name
+#Declare, set the Maximo JMS queue name
 queueName = "jms/maximo/int/queues/cqin"
 
 #Set the condition to filter the Messages
