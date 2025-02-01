@@ -6,7 +6,7 @@ from psdi.iface.jms import JMSData
 
 qbrowser = None
 
-#Declare the JMS Queue name in Maximo
+#Declare, Set the JMS Queue name in Maximo
 queueName = "jms/maximo/int/queues/cqin"
 
 #Get the JMS queue messages
